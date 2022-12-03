@@ -11,7 +11,6 @@ most_cal = 0
 
 for elf in cal_list:
     total = sum([int(food) for food in elf])
-    #total = sum(elf)
     if total > most_cal:
         most_cal = total
 
